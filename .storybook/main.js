@@ -4,8 +4,9 @@ const config = {
    staticDirs: ['../public'],
    addons: [
      '@storybook/addon-links',
-     '@storybook/addon-essentials',
      '@storybook/addon-interactions',
+     '@storybook/addon-essentials',
+     '@storybook/addon-a11y',
    ],
    framework: {
      name: '@storybook/react-vite',
@@ -16,4 +17,3 @@ const config = {
    },
  };
  export default config;
- 

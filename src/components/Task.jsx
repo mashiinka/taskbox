@@ -47,7 +47,7 @@ export default function Task({ task: { id, title, state }, onArchiveTask, onPinT
   );
 }
 
- Task.propTypes = {
+Task.propTypes = {
   /** Composition of the task */
   task: PropTypes.shape({
     /** Id of the task */
@@ -61,4 +61,4 @@ export default function Task({ task: { id, title, state }, onArchiveTask, onPinT
   onArchiveTask: PropTypes.func,
   /** Event to change the task to pinned */
   onPinTask: PropTypes.func,
- };
+};
